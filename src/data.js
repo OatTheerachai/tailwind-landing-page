@@ -6,7 +6,14 @@ import YSL from "./assets/img/brand/ysl.png";
 import Gucci from "./assets/img/brand/gucci.png";
 
 //  image product
-import Product from "./assets/img/product/product-1.jpg";
+import Product_1 from "./assets/img/product/product-1.jpg";
+import Product_2 from "./assets/img/product/product-2.jpg";
+import Product_3 from "./assets/img/product/product-3.jpg";
+import Product_4 from "./assets/img/product/product-4.jpg";
+import Product_5 from "./assets/img/product/product-5.jpg";
+import Product_6 from "./assets/img/product/product-6.jpg";
+import Product_7 from "./assets/img/product/product-7.jpg";
+import Product_8 from "./assets/img/product/product-8.jpg";
 
 export const navigation = [
   {
@@ -102,45 +109,51 @@ export const newInStore = {
 
 export const products = [
   {
-    image: Product,
-    // icon: <IoMdAddCircle />,
-    name: "Ceiling Light",
+    image: Product_1,
+    name: "Purple Stain Sweater",
     price: 75,
     oldPrice: 82,
   },
   {
-    image: Product,
-    // icon: <IoMdAddCircle />,
-    name: "Wood Chair",
+    image: Product_2,
+    name: "Oatmeal Mini Dress",
     price: 50,
     oldPrice: 70,
   },
   {
-    image: Product,
-    // icon: <IoMdAddCircle />,
-    name: "Ceiling Light",
+    image: Product_3,
+    name: "Long Grey Cardigan",
     price: 75,
     oldPrice: 82,
   },
   {
-    image: Product,
-    // icon: <IoMdAddCircle />,
-    name: "Wood Chair",
-    price: 50,
-    oldPrice: 70,
-  },
-  {
-    image: Product,
-    // icon: <IoMdAddCircle />,
-    name: "Ceiling Light",
+    image: Product_4,
+    name: "Floral Blouse Blue",
     price: 75,
     oldPrice: 82,
   },
   {
-    image: Product,
-    // icon: <IoMdAddCircle />,
-    name: "Wood Chair",
+    image: Product_5,
+    name: "Purple Stain Sweater",
     price: 50,
     oldPrice: 70,
+  },
+  {
+    image: Product_6,
+    name: "Oatmeal Mini Dress",
+    price: 75,
+    oldPrice: 82,
+  },
+  {
+    image: Product_7,
+    name: "Long Grey Cardigan",
+    price: 75,
+    oldPrice: 82,
+  },
+  {
+    image: Product_8,
+    name: "Long Grey Cardigan",
+    price: 75,
+    oldPrice: 82,
   },
 ];

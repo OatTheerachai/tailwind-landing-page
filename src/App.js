@@ -5,7 +5,9 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Brand from "./components/Brand";
 import Bessellers from "./components/Bessellers";
-// import Footer from "./components/Footer";
+import Categories from "./components/Categories";
+import Trends from "./components/Trends";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       <Main />
       <Brand />
       <Bessellers />
-      {/* <Footer /> */}
+      <Categories />
+      <Trends />
+      <Footer />
     </div>
   );
 };

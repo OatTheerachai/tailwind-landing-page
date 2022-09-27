@@ -29,3 +29,22 @@
     height: 100%;
     object-fit: cover;
   }
+
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -2px !important;
+  }
+
+  .swiper-pagination-bullet {
+    width: 15px !important;
+    height: 15px !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #286F6C !important;
+  }
+
+  @media screen and (max-width: 375px) {
+    .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+      bottom: 30px !important;
+    }
+  }
