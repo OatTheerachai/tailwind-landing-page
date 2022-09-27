@@ -6,7 +6,7 @@ const Categories = () => {
       <h1 className="mt-5 mb-3 text-center text-2xl lg:text-[40px] lg:leading-tight lg:max-w-[888px] mx-auto font-semibold">
         Categories
       </h1>
-      <div className="grid grid-cols-2 gap-10 my-10">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-10 my-10">
         <div className="cursor-pointer rounded-lg bg-women flex flex-col justify-center items-start px-10 min-h-[250px] object-right bg-riht lg:bg-center bg-cover bg-no-repeat relative">
           <h5 className="text-5xl font-bold">Woman</h5>
           <span className="mx-1 opacity-60">( 125 Products )</span>
