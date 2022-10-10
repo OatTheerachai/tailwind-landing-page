@@ -8,14 +8,7 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: "1.5rem",
-        lg: "3rem",
       },
-    },
-    screens: {
-      sm: "640px",
-      md: "768px",
-      lg: "1024px",
-      xl: "1280px",
     },
     extend: {
       colors: {
@@ -36,6 +29,7 @@ module.exports = {
         hero: 'url("/src/assets/img/main.jpg")',
         women: 'url("/src/assets/img/catagories/women.jpg")',
         men: 'url("/src/assets/img/catagories/men.jpg")',
+        new: 'url("/src/assets/img/new-item.jpg")',
       },
       dropShadow: {
         primary: "0px 4px 10px rgba(15, 27, 51, 0.05);",

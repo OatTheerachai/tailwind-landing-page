@@ -7,7 +7,7 @@ const Trends = () => {
       <h1 className="mt-5 mb-3 text-center text-2xl lg:text-[40px] lg:leading-tight lg:max-w-[888px] mx-auto font-semibold">
         Thrends Of A Month
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 my-10">
+      <div className="grid grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 gap-10 my-10">
         {products.map((item, index) => {
           return (
             <div
@@ -32,6 +32,11 @@ const Trends = () => {
             </div>
           );
         })}
+      </div>
+      <div className="flex items-center justify-center">
+        <button className="text-white px-[20px] lg:px-[80px] py-[9px] lg:py-[16px] mb-[50px] text-xl rounded-md bg-accent hover:bg-main backdrop-blur-md transition">
+          Show more
+        </button>
       </div>
     </div>
   );

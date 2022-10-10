@@ -7,6 +7,7 @@ import Brand from "./components/Brand";
 import Bessellers from "./components/Bessellers";
 import Categories from "./components/Categories";
 import Trends from "./components/Trends";
+import NewItem from "./components/NewItem";
 import Footer from "./components/Footer";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <Bessellers />
       <Categories />
       <Trends />
+      <NewItem />
       <Footer />
     </div>
   );
